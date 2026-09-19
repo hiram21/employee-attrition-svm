@@ -26,6 +26,12 @@ The target variable is `left`:
 
 Dataset file: `recursos_humanos.csv`
 
+## Exploratory data analysis
+
+The pairplot provides an overview of the relationships between employee characteristics and attrition.
+
+![Employee attrition pairplot](images/svm_pairplot.png)
+
 ## Methodology
 
 The project follows these main steps:
@@ -57,6 +63,13 @@ The baseline and optimized models were evaluated using:
 - F1-score
 
 Precision and recall were also calculated manually from the confusion matrix to verify the results reported by Scikit-learn.
+### Baseline model
+
+![Baseline SVM confusion matrix](images/svm_baseline_confusion_matrix.png)
+
+### Optimized model
+
+![Optimized SVM confusion matrix](images/svm_optimized_confusion_matrix.png)
 
 ## Results
 
